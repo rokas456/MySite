@@ -1,5 +1,5 @@
 
 	 function message(){
-		alert("Contact feature coming soon, feel free to email me at rokas.lukosevicius@mycit.ie");
-		console.log("error");
+			
+		var x = document.getElementById("stuff").innerHTML = "Contact feature coming soon, feel free to email me at <br /><em>rokas.lukosevicius@mycit.ie</em>";
 }
