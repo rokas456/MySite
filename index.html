@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+
 	</head>
 	<body>
 
@@ -77,7 +79,7 @@
 
 							<header>
 								<h2 class="alt">Hello I'm <strong>Rokas</strong>, <br /> Web/Software Developer<br /> </h2>
-								<p>Currently I am in my final year of computer science focusing towards web technologies in Cork Institute of Technology. <br />Recently I have completed my internship at Janssen Pharmaceutica.</p>
+								<p>I am in my final year of computer science focusing towards web technologies in Cork Institute of Technology. <br />Recently I have completed my internship at Janssen Pharmaceutica.</p>
 							</header>
 
 							<footer>
@@ -148,10 +150,9 @@
 
 							<a href="#" class="image featured"><img src="images/hands.jpg" alt="" /></a>
 
-							My name is Rokas. I am currently completing my internship at Jannsen Pharmaceutica. I am working with the training department.<br />
-							My work at Janssen revolves around graphic design, implementing work strategies using lean and data analysis. During the weekends I am pentesting
-							a website  and writing a report for it.I have a big interest in IT security and web development. <br /> During my spare time I post educational tutorials to give people
-							a chance to get invloved in these subjects.
+							My name is Rokas. I have recently completed my internship at Jannsen Pharmaceutica. I was working for the training department.<br />
+							My duties revolved around working with Sharepoint CMS, working as part of a team to implement workable strategies to improve work efficiency and reduce errors and graphic design to enhance training courses used with PowerPoint. <br /> I have a big interest in web and software development.  After college, I am hoping to move to Vancouver, Canada, where I am hoping to start my career
+							in a tech related area. 
 
 						</div>
 					</section>
@@ -164,16 +165,17 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p>I am currently looking for experience in wep/software application development or penetration testing area. <br />If you need  help please dont hesitate contact me via the form below. </p>
+							<p>I am currently looking for experience in wep/software application development or penetration testing area. <br />If you need  help please dont hesitate to contact me via the form below or <br/> Email: rokas.lukosevicius@mycit.ie. </p>
 
-							<form method="post" action="mail_handler.php">
+							<!--action="mail_handler.php"-->
+							<form method="post"  >
 								<div class="row">
 									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
 									<div class="12u$">
 										<textarea name="message" placeholder="Message"></textarea>
 									</div>
-									<div class="12u$">
+									<div class="1u$" onclick="message()">
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
@@ -193,6 +195,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="logic.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
